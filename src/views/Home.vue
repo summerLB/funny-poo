@@ -1,15 +1,16 @@
 <template>
   <div class="home">
-    hello
+    <perfectScrollbar></perfectScrollbar>
   </div>
 </template>
 
 <script>
+import perfectScrollbar from '@/components/perfectScrollbar_demo'
 
 export default {
   name: 'Home',
   components: {
-    
+    perfectScrollbar
   }
 }
 </script>
